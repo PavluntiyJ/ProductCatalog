@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="An online catalog displaying products fetched from Fake Store API"
+    />
+    <meta
+      name="keywords"
+      content="online store, catalog, products, API, web development"
+    />
+
+    <title>Product Catalog</title>
+
+    <link rel="icon" type="png" href="./assets/icon.png" />
+
+    <link
+      href="/node_modules/bootstrap/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="/src/css/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="my-4">Product Catalog</h1>
+      <div class="row mb-4">
+        <div class="col">
+          <input
+            type="text"
+            id="search"
+            class="form-control"
+            placeholder="Search product..."
+          />
+        </div>
+        <div class="col">
+          <select id="categoryFilter" class="form-control">
+            <option value="all">All Categories</option>
+          </select>
+        </div>
+      </div>
+      <div class="row" id="product-list"></div>
+    </div>
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>
