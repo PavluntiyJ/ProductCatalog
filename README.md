@@ -16,6 +16,11 @@ Features
     JavaScript (ES6): Core language for fetching and displaying products.
     Bootstrap: For responsive and mobile-friendly design.
     Fake Store API: External API to fetch product data.
+
+ ## Screenshot
+
+ ![image](https://github.com/user-attachments/assets/8e2efc87-9952-483b-aa78-a8995b604121)
+
     
 ### Live Netlify Server
 You can view the live version of the project here: [https://simple-product-catalog.netlify.app/].
